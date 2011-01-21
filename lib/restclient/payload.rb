@@ -215,7 +215,7 @@ module RestClient
       end
 
       def close
-        @stream.close
+        @stream.close!
       end
     end
   end
